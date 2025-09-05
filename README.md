@@ -5,34 +5,34 @@ A modern React-based web application built with Vite, TailwindCSS, and modular c
 
 ## 📂 Project Structure
 
-public/
-├─ assets/ # Static assets (images, icons, etc.)
-├─ favicon.ico
-├─ manifest.json
-├─ robots.txt
-
-src/
-├─ components/ # Reusable React components
-│ ├─ ui/ # UI elements
-│ │ ├─ AppIcon.jsx
-│ │ ├─ AppImage.jsx
-│ │ ├─ ErrorBoundary.jsx
-│ │ └─ ScrollToTop.jsx
-│ ├─ pages/ # Page-level components
-│ │ ├─ expense-tracking-interface/
-│ │ ├─ home-dashboard/
-│ │ ├─ income-tracking-interface/
-│ │ ├─ voice-reminder-creation/
-│ │ └─ NotFound.jsx
-├─ styles/
-│ ├─ index.css
-│ └─ tailwind.css
-├─ utils/
-│ └─ cn.js # Utility functions (e.g., classNames)
-├─ App.jsx
-├─ index.jsx
-└─ Routes.jsx
-
+    public/
+    ├─ assets/ # Static assets (images, icons, etc.)
+    ├─ favicon.ico
+    ├─ manifest.json
+    ├─ robots.txt
+    
+    src/
+    ├─ components/ # Reusable React components
+    │ ├─ ui/ # UI elements
+    │ │ ├─ AppIcon.jsx
+    │ │ ├─ AppImage.jsx
+    │ │ ├─ ErrorBoundary.jsx
+    │ │ └─ ScrollToTop.jsx
+    │ ├─ pages/ # Page-level components
+    │ │ ├─ expense-tracking-interface/
+    │ │ ├─ home-dashboard/
+    │ │ ├─ income-tracking-interface/
+    │ │ ├─ voice-reminder-creation/
+    │ │ └─ NotFound.jsx
+    ├─ styles/
+    │ ├─ index.css
+    │ └─ tailwind.css
+    ├─ utils/
+    │ └─ cn.js # Utility functions (e.g., classNames)
+    ├─ App.jsx
+    ├─ index.jsx
+    └─ Routes.jsx
+    
 .env # Environment variables
 .gitignore
 favicon.ico
@@ -44,7 +44,6 @@ postcss.config.js
 README.md
 tailwind.config.js
 vite.config.mjs
-
 
 ---
 
